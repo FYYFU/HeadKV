@@ -1,6 +1,5 @@
 # Retrieval_Reasoning_Head
 
-I
 
 ## 1. Install Packages
 ```python
