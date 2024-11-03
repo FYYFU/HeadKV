@@ -2,7 +2,7 @@
 
 
 ## Model
-![alt text](image.png)
+![alt text](main.png)
 
 ## Performance
 ![alt text](performance_table.png)
@@ -130,3 +130,17 @@ for((i=0;i<1;i++));do
 done
 ```
 Reason-in-a-haystack experiments are conduct based on the data provided by [RMT-team](https://huggingface.co/datasets/RMT-team/babilong). 
+
+
+## Citation
+```markdown
+@article{fu2024not,
+  title={Not All Heads Matter: A Head-Level KV Cache Compression Method with Integrated Retrieval and Reasoning},
+  author={Fu, Yu and Cai, Zefan and Asi, Abedelkadir and Xiong, Wayne and Dong, Yue and Xiao, Wen},
+  journal={arXiv preprint arXiv:2410.19258},
+  year={2024}
+}
+```
+
+## Acknowledgement
+We build our project based on [PyramidKV](https://github.com/Zefan-Cai/PyramidKV/tree/main), [Ada-KV](https://github.com/FFY0/AdaKV), [Retrieval Heads](https://github.com/nightdessert/Retrieval_Head/tree/main) and [babilong](https://github.com/booydar/babilong). Many thanks to them for providing open-source code and data!
