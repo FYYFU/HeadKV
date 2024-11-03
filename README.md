@@ -1,5 +1,6 @@
 # HeadKV
 
+Code and data for paper: Not All Heads Matter: A Head-Level KV Cache Compression Method with Integrated Retrieval and Reasoning (preprint) [Link](https://arxiv.org/abs/2410.19258)
 
 ## Model
 ![alt text](main.png)
