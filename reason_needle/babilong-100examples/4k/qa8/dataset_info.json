@@ -1,0 +1,136 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "4k",
+  "dataset_name": "babilong",
+  "dataset_size": 14532639,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa1/4k.json": {
+      "num_bytes": 1493148,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa2/4k.json": {
+      "num_bytes": 1485632,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa3/4k.json": {
+      "num_bytes": 1502721,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa4/4k.json": {
+      "num_bytes": 1482072,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa5/4k.json": {
+      "num_bytes": 1486630,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa6/4k.json": {
+      "num_bytes": 1495941,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa7/4k.json": {
+      "num_bytes": 1472432,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa8/4k.json": {
+      "num_bytes": 1492978,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa9/4k.json": {
+      "num_bytes": 1486600,
+      "checksum": null
+    },
+    "hf://datasets/RMT-team/babilong@ee0d588794c7ac098062ee0d247c733d62e94fe2/data/qa10/4k.json": {
+      "num_bytes": 1459576,
+      "checksum": null
+    }
+  },
+  "download_size": 14857730,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 29390369,
+  "splits": {
+    "qa1": {
+      "name": "qa1",
+      "num_bytes": 1461172,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa2": {
+      "name": "qa2",
+      "num_bytes": 1451666,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa3": {
+      "name": "qa3",
+      "num_bytes": 1475555,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa4": {
+      "name": "qa4",
+      "num_bytes": 1445921,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa5": {
+      "name": "qa5",
+      "num_bytes": 1455269,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa6": {
+      "name": "qa6",
+      "num_bytes": 1460155,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa7": {
+      "name": "qa7",
+      "num_bytes": 1439463,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa8": {
+      "name": "qa8",
+      "num_bytes": 1461235,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa9": {
+      "name": "qa9",
+      "num_bytes": 1455518,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    },
+    "qa10": {
+      "name": "qa10",
+      "num_bytes": 1426685,
+      "num_examples": 100,
+      "dataset_name": "babilong"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
