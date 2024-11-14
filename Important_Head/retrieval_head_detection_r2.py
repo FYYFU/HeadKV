@@ -224,7 +224,8 @@ class LLMNeedleHaystackTester:
                         # if  self.needle_start <= i < self.needle_end and inp.item()==self.prompt_ids[i].item():
                         if  self.needle_start <= i < self.needle_end:
                             # ipdb.set_trace()
-                            retrieval_score[layer_idx][head_idx][0] += 10 * v.item() * 1/ ((self.needle_end - self.needle_start) * answer_tokens_num)
+                            # retrieval_score[layer_idx][head_idx][0] += 10 * v.item() * 1/ ((self.needle_end - self.needle_start) * answer_tokens_num)
+                            retrieval_score[layer_idx][head_idx][0] += v.item() * 1/ (self.needle_end - self.needle_start)
                             retrieval_score[layer_idx][head_idx][1] += step_token
                             # break
         else:
